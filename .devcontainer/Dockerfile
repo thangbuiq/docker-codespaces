@@ -26,7 +26,7 @@ RUN \
 # Install starship for vscode user with pure prompt
 RUN \
     sh -c "$(curl -fsSL https://starship.rs/install.sh)" -- --yes && \
-    mkdir -p ~/.config/ &&
+    mkdir -p ~/.config/ && \
     echo 'starship preset pure-preset -o ~/.config/starship.toml'  >> ~/.bashrc && \
     echo 'eval "$(starship init bash)"' >> ~/.bashrc
 
