@@ -26,9 +26,9 @@ RUN \
 # Install starship for vscode user with pure prompt
 RUN \
     sh -c "$(curl -fsSL https://starship.rs/install.sh)" -- --yes && \
-    mkdir -p ~/.config/ && \
-    echo 'starship preset pure-preset -o ~/.config/starship.toml'  >> ~/.bashrc && \
-    echo 'eval "$(starship init bash)"' >> ~/.bashrc
+    mkdir -p /home/vscode/.config/ && \
+    echo 'starship preset pure-preset -o /home/vscode/.config/starship.toml'  >> /home/vscode/.bashrc && \
+    echo 'eval "$(starship init bash)"' >> /home/vscode/.bashrc
 
 # default user of dev container
 USER vscode
