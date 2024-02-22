@@ -3,7 +3,10 @@
     "build": {
         "dockerfile": "./Dockerfile"
     },
-    "runArgs": ["--volume=/var/lib/docker", "--privileged"],
+    "runArgs": [
+        "--volume=/var/lib/docker",
+        "--privileged"
+    ],
     "settings": {
         "[yaml]": {
             "editor.autoIndent": "advanced",
@@ -22,6 +25,7 @@
         "github.copilot"
     ],
     "features": {
-        "ghcr.io/devcontainers/features/github-cli": "latest"
+        "ghcr.io/devcontainers/features/github-cli": "latest",
+        "ghcr.io/devcontainers/features/docker-in-docker": "latest"
     }
 }
