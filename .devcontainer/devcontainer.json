@@ -28,10 +28,5 @@
     "features": {
         "ghcr.io/devcontainers/features/github-cli": "latest",
         "ghcr.io/devcontainers/features/docker-in-docker": "latest"
-    },
-    "hostRequirements": {
-        "cpus": 4
-    },
-    "workspaceFolder": "/workspace",
-    "forwardPorts": []
+    }
 }
