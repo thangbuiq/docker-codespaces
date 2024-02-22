@@ -11,7 +11,7 @@ This template provides a guide to running Docker inside Docker (DinD) within Git
 
 - Click on the **Use this template** button and **Create a new repository** based on this template.
 
-[](https://i.imgur.com/gxH0yfX.png)
+![](https://i.imgur.com/gxH0yfX.png)
 
 - Open Github Codespaces using your own repository.
 
